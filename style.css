@@ -1,0 +1,78 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(images/background.jpg);
+}
+
+.card{
+    width: 25vw;
+}
+
+.cards-container{
+    display:flex;
+}
+
+
+.card-header{
+    font-size: 2.5rem;
+}
+
+.card-title{
+    font-size: 4.5rem;
+}
+
+.temp-text{
+    font-size: 1.3rem;
+}
+
+.location-name{
+    font-weight: bold;
+    color: white;
+    font-size: 4rem;
+}
+
+
+@media(max-width:991px){
+    .cards-container{
+        display:block;
+    }
+    
+    .card{
+        width:96%;
+    }
+
+    .card-header{
+        font-size: 1.5rem;
+    }
+
+    .card-title{
+        font-size: 2.5rem;
+    }
+
+    .temp-text{
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width:480px){
+    .cards-container{
+        display:block;
+    }
+
+    .card{
+        width:82vw;
+    }
+
+    .temp-text{
+        font-size: 1.5rem;
+    }
+
+    .location-name{
+        font-size: 3rem;
+    }
+}
+
+
+
